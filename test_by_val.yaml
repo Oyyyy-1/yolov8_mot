@@ -1,0 +1,7 @@
+# 用于测试集进行检验并获取指标，利用val模式（路径改为指向测试集）
+train:
+#val: D:/py/mot_data/all_data/images/test    # 20-01增强数据划分出来的测试集
+val: D:/py/mot_data/before_enhance/images/test          # 20-01原数据划分的测试集
+
+nc: 1
+names: ['person']  # 目标类别名称

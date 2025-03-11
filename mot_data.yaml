@@ -1,0 +1,23 @@
+# 本地数据集路径
+#train: D:/py/mot_data/MOT20-01/img1  # 训练集图片路径
+#val: D:/py/mot_data/MOT20-01/img1  # 验证集图片路径（没有单独的验证集，使用相同路径）
+
+#train_labels: D:/py/mot_data/labels/MOR20-01/yolo_label  # 训练集标签路径
+#val_labels: D:/py/mot_data/labels/MOR20-01/yolo_label  # 验证集标签路径
+
+# autodl远程主机存放数据集路径
+#train: /autodl-tmp/my_datasets/mot_data/MOT20-01/img1
+#val: /autodl-tmp/my_datasets/mot_data/MOT20-01/img1
+#
+#train_labels: /autodl-tmp/my_datasets/mot_data/labels/MOT20-01/yolo_label
+#val_labels: /autodl-tmp/my_datasets/mot_data/labels/MOT20-01/yolo_label
+
+# 恒源云远程主机路径
+train: /home/yolov8_mot_data/MOT20-01/img1
+val: /home/yolov8_mot_data/MOT20-01/img1
+
+train_labels: /home/yolov8_mot_data/labels
+val_labels: /home/yolov8_mot_data/labels
+
+nc: 1
+names: ['person']  # 目标类别名称
